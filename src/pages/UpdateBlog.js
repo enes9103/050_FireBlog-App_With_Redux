@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     fontSize: 35,
     fontFamily: "Girassol",
-    color: "#046582",
+    color: "#3F7C85",
   },
 }));
 const UpdateBlog = ({ match }) => {

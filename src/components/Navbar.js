@@ -7,7 +7,7 @@ import IconButton from "@material-ui/core/IconButton";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
-import cwLogo from "../assets/cw.jpeg";
+import cwLogo from "../assets/logo2.png";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../redux/thunks/authThunk";
@@ -33,10 +33,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   appBar: {
-    backgroundColor: "#046582",
+    backgroundColor: "#3F7C85",
   },
   logo: {
-    width: 40,
+    width: 80,
   },
   linkStyle: {
     textDecoration: "none",
@@ -94,7 +94,7 @@ export default function Navbar() {
           <div className={classes.root}>
             <Link to="/" className={classes.login}>
               <Typography variant="h6" className={classes.title}>
-                ──── <span>{"<Clarusway IT />"}</span> BLOG ────
+                ──── <span>{"<JAZZ World />"}</span> PUBLICITY ────
               </Typography>
             </Link>
           </div>
